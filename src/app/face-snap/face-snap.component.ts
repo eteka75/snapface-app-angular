@@ -19,7 +19,7 @@ export class FaceSnapComponent implements OnInit {
   @Input() faceSnap!: FaceSnap;
   btnText!: string;
   userHasSnaped!: boolean;
-  prix = 0.7683;
+  //prix = 0.7683;
 
   ngOnInit(): void {
     this.btnText = 'Oh Snape!';
