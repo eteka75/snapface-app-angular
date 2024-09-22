@@ -45,7 +45,7 @@ export class FaceSnapsService {
     facesnap.snap(snapType);
   }
   getSnapById(faceSnapId: string): FaceSnap {
-    const getSnap = this.faceFnaps.find(snap => snap.id = faceSnapId);
+    const getSnap = this.faceFnaps.find(snap => snap.id === faceSnapId);
     if (!getSnap) {
       throw new Error('FaceSnap not found !');
     }
